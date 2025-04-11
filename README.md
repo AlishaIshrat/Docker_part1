@@ -2,6 +2,7 @@
 Step 1:
 I first create the node.js app that respond with the "Hello Aleesha" on localhost:3000
 code is:
+```javascript
 // index.js
 const express = require('express');
 const app = express();
@@ -16,4 +17,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
-
+```
